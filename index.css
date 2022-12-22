@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background: darkblue;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    font-family: "Cursed Timer ULiL";
+    text-align: center;
+    padding: 35px 0;
+}
+
+@font-face {
+  font-family: "Cursed Timer ULiL";
+  font-style: normal;
+  src: url("CursedTimerUlil-Aznm.ttf");
+       
+}
+
